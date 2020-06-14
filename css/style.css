@@ -1,0 +1,145 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+header {
+    padding-top: 0px;
+    height: 45px;
+    background-color: rgb(255, 240, 245);
+}
+.Container {
+    
+    width: 1400px;
+    margin: auto;
+    display: flex;
+    max-width: 100%;
+    
+}
+
+.left-header {
+    width: 80%;
+}
+.right-header {
+    width: 20%;
+}
+.right-header > h1 {
+    margin: 0px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: auto;
+}
+.right-header_name {
+    font-size: 24px;
+    font-weight: bold;
+}
+.right-header > h1 p {
+    margin: 0px;
+    margin-top: 10px;
+}
+.header-menu {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    list-style: none;
+}
+.left-header {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 14px;
+}
+.header-menu > li {
+    margin-left: 65px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+}
+.header-menu > li a {
+    color: #000000;
+    text-decoration: none;
+}
+.header-menu > li a:hover {
+	color: rgb(255, 0, 0);
+	transition: color .5s ease-in-out;
+}
+.title > h2{
+    width: auto;
+    margin-top: 130px;
+    margin-left: 65px;
+    font-family: Roboto;
+    font-style: medium;
+    font-weight: medium;
+    font-size: 50px;
+    color: rgb(206, 39, 92);
+}
+.title > p{
+    width: auto;
+    margin-top: 15px;
+    margin-left: 65px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    color: black;
+}
+.section-about-me{
+    background-color: rgb(206, 39, 92);
+    color: white;
+}
+.left-text{
+    width: 56%;
+}
+.right-image{
+    width: 44%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.left-text{
+    margin-top: 65px;
+    margin-left: 65px;
+}
+.section-about-me-container{
+    margin-top: 15px;
+}
+.left-text >h2{
+    width: auto;
+    font-family: Roboto;
+    font-style: medium;
+    font-weight: medium;
+    font-size: 50px;
+}
+.left-text > p{
+    width: auto;
+    margin-top: 15px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+}
+
+.right-image img{
+    max-width: 100%;
+}
+.left-text-port > h2{
+    margin-top: -20px;
+    font-size: 25px;
+}
+.t{
+    margin-top: 5px!important;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px!important;
+}
+.left-text-port > p > a{
+    color: #ffffff;
+    
+    font-size: 20px;
+}
+.cont{
+    margin: auto;
+    display: flex;
+}
+.cont > a{
+    text-decoration: none;
+}
